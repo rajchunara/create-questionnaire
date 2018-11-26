@@ -6,9 +6,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 120% !important;
+}
+
+html, #root, .App, .row, .add, .modify, .edit, .container, .preview{
+  height: 100% !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.modify{
+  border-left: 5px solid white !important;
+  color: #607d8b !important;
+  overflow: scroll;
+}
+
+.add{
+  color: #404649 !important;
+}
+
+.keyOpts{
+  background: #2962ff !important;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  padding:5px 15px 5px 15px;
+  border-radius: 10px;
+  float:  left;
+  clear: left;
+}
+
+
+.close{
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.close:hover{
+  background: #ff8a80;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.add-option{
+  margin-top:20px !important;
+}
+
+.view-options{
+  background: #607d8b;
+  color: azure;
+  height:200px ;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.mod-question{
+  margin-left: 20px ;
+}
+
+.preview{
+  margin-top: 30px; 
+  border: 3px solid teal;
+  border-radius: 10px;
+}
+
+.pages{
+  font-weight: 650;
+}
+
+.preview-que{
+  margin-top:50px;
+  margin-left: 50px;
+}
+
+.opt{
+  margin-left:20px;
+}
+
+
+
+
+
